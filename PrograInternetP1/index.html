@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Écran Infini | curaduria de Cine</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.8/lux/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Federo&family=Antic+Didone&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="./img/Camera-removebg-preview.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top border-bottom border-warning">
+        <div class="container">
+            <a class="navbar-brand text-warning titulo-principal" href="#">ÉCRAN INFINI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link texto-cuerpo" href="#conocenos">Conócenos</a></li>
+                    <li class="nav-item"><a class="nav-link texto-cuerpo" href="#galeria">Peliculas</a></li>
+                    <li class="nav-item"><a class="nav-link texto-cuerpo" href="#formalidades">Contactanos </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/eb6f96_e343d5a9d062400bbad3a08cb16e92f7~mv2.webp" class="d-block w-100 img-carousel" alt="Palmera">
+                    <div class="carousel-caption d-none d-md-block">       
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Trueman.jpg" class="d-block w-100 img-carousel" alt="Caballos">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Ana karenina.jpg" class="d-block w-100 img-carousel" alt="Tienda">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <div class="container mt-5">
+        <section id="conocenos" class="text-center mb-5">
+            <h2 class="titulo-principal text-warning">CONÓCENOS</h2>
+            <p class="texto-cuerpo">Écran Infini la galería digital dedicada a la apreciación cinematográfica. Nos enfocamos en películas que destacan por su identidad visual, atmósferas oscuras y diseño de producción impecable. Más que una simple lista de recomendaciones, es un archivo visual para quienes buscan salir de lo convencional y explorar el lado más profundo del séptimo arte. </p>
+        </section>
+        
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="text" id="inputBuscador" class="caja-buscar" placeholder="BUSCAR FILME...">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="galeria">
+            <h2 class="titulo-principal text-warning text-center mb-4">SELECCIÓN</h2>
+            
+            <div class="row">
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/PerfectBluw.jpg" class="card-img-top" alt="Perfect Blue">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Perfect Blue</h5>
+                            <p class="card-text texto-cuerpo small">Un thriller psicológico animado que difumina la línea entre la realidad y la fantasía.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/KB.jpg" class="card-img-top" alt="Kill Bill">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Kill Bill</h5>
+                            <p class="card-text texto-cuerpo small">Una épica historia de venganza llena de acción, sangre y referencias al cine de artes marciales.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/PortraitOf.webp" class="card-img-top" alt="Portrait">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Portrait of a Lady on Fire</h5>
+                            <p class="card-text texto-cuerpo small">Un romance de época visualmente deslumbrante que explora la mirada y el deseo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/Blue jasmine.webp" class="card-img-top" alt="Blue Jasmine">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Blue Jasmine</h5>
+                            <p class="card-text texto-cuerpo small">El retrato tragicómico de una mujer de la alta sociedad lidiando con su caída en desgracia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/eyes.webp" class="card-img-top" alt="Eyes Wide Shut">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Eyes Wide Shut</h5>
+                            <p class="card-text texto-cuerpo small">Una odisea onírica y perturbadora sobre el matrimonio, los celos y el deseo oculto.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/blackSwan.webp" class="card-img-top" alt="Black Swan">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Black Swan</h5>
+                            <p class="card-text texto-cuerpo small">El descenso a la locura de una bailarina consumida por la búsqueda de la perfección.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/maria.jpeg" class="card-img-top" alt="Maria">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Maria</h5>
+                            <p class="card-text texto-cuerpo small">Un intenso drama biográfico que explora la vida y el legado de una figura icónica.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/AmericanPsycho.png" class="card-img-top" alt="American Psycho">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">American Psycho</h5>
+                            <p class="card-text texto-cuerpo small">Una sátira oscura y sangrienta sobre la superficialidad y el vacío del yuppie neoyorquino.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/Marie Antoinette.jpg" class="card-img-top" alt="Marie Antoinette">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Marie Antoinette</h5>
+                            <p class="card-text texto-cuerpo small">Una visión pop e incomprendida de la icónica reina de Francia, atrapada en el lujo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/LOSTINTRANSLATIONS_1957x.jpg" class="card-img-top" alt="Lost in Translation">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Lost in Translation</h5>
+                            <p class="card-text texto-cuerpo small">Dos almas solitarias encuentran una conexión fugaz en medio del neón de Tokio.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/Cruel intentions .webp" class="card-img-top" alt="Cruel Intentions">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Cruel Intentions</h5>
+                            <p class="card-text texto-cuerpo small">Juegos de poder, seducción y manipulación entre los adolescentes de la élite de Manhattan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card h-100 bg-dark text-white border-warning">
+                        <img src="./img/Poorthings.jpg" class="card-img-top" alt="Poor Things">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-carousel text-warning">Poor Things</h5>
+                            <p class="card-text texto-cuerpo small">Un cuento de hadas surrealista y feminista sobre el despertar y la evolución de Bella Baxter.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        </section>
+    </div>
+
+    <footer id="formalidades" class="bg-black text-white text-center py-4 mt-5 border-top border-warning">
+        <div class="container">
+            <h4 class="titulo-principal text-warning">CONTACTO</h4>
+            <p class="texto-cuerpo small">© 2026 Écran Infini. Todos los derechos reservados.</p>
+            <p class="texto-cuerpo small">Contacto: info@ecraninfini.com</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        $("#inputBuscador").on("keyup", function() {
+            var valor = $(this).val().toLowerCase();
+            $("#galeria .col-md-3").filter(function() {
+                $(this).toggle($(this).text().toLowerCase().indexOf(valor) > -1);
+            });
+        });
+    });
+    </script>
+</body>
+</html>

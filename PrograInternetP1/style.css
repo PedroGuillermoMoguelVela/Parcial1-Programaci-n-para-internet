@@ -1,0 +1,99 @@
+/* Estilos base */
+body {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border-bottom: 1px solid #333;
+}
+
+/* Tipografias */
+.titulo-principal, .navbar-brand, h1, h2 {
+    font-family: 'Bodoni Moda SC', serif;
+    letter-spacing: 8px;
+    font-size: 2rem;
+    color: #ffcc00 !important; 
+}
+
+.titulo-carousel, .card-title, h5 {
+    font-family: 'Federo', sans-serif;
+    font-weight: 400;
+}
+
+p, .texto-cuerpo, .nav-link, .card-text {
+    font-family: 'Antic Didone', serif;
+    font-weight: 400;
+    line-height: 1.6; 
+}
+
+/* El buscador */
+.caja-buscar {
+    background: transparent;
+    border: none;
+    color: #ffcc00 ;
+    border-bottom: 1px solid ;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px; 
+    font-size: 1.1rem;
+    width: 100%;
+    outline: none;
+    padding: 8px;
+}
+
+/* Carrusel y fotos */
+.img-carousel {
+    height: 500px;
+    object-fit: cover; 
+    filter: brightness(0.7);
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.4); 
+    padding: 10px;
+}
+
+/* Tarjetas */
+.card {
+    background: #000;
+    border: 1px solid;     
+    color: #ffcc00; 
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(255, 193, 7, 0.4);
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background:   #000;
+    color: #ffcc00; 
+
+    border-radius: 6px;
+}   
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffcc00;
+}
+
+
